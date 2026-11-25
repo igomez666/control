@@ -1,0 +1,11 @@
+# Librerías necesarias para los códigos de este repositorio.
+# Instalación:  pip install -r requirements.txt
+
+numpy>=1.24
+scipy>=1.10              # la usa python-control para simular y linealizar
+matplotlib>=3.7
+control>=0.10.1,<0.11    # python-control (probado con la versión 0.10.2)
+
+# Para abrir los cuadernos (.ipynb)
+jupyterlab>=4.0
+ipykernel
