@@ -7,6 +7,7 @@ librería [python-control](https://python-control.readthedocs.io/).
 
 | Fichero | Qué contiene |
 |---|---|
+| `simulacion_pendulo.ipynb` | Cuaderno de introducción a python-control con un péndulo: ecuaciones, sistema no lineal, trimado a 45°, linealización, simulación lineal y no lineal, y animación. **Buen punto de partida** |
 | `simulacion_longitudinal.ipynb` | Cuaderno principal: trimado, linealización, modos propios, actuador, PID de asiento, *altitude hold* y animación de la actitud del avión |
 | `dinamica_longitudinal.py` | Modelo no lineal de la dinámica longitudinal de un avión (Cessna 172) y función de trimado |
 | `visualizacion.py` | Funciones de gráficas y animación que usa el cuaderno |
@@ -87,7 +88,7 @@ Con el entorno activado, desde la carpeta del repositorio:
 jupyter lab
 ```
 
-Se abre el navegador. Haz doble clic en `simulacion_longitudinal.ipynb` y ejecuta las celdas en orden
+Se abre el navegador. Haz doble clic en el cuaderno que quieras (si es la primera vez, empieza por `simulacion_pendulo.ipynb`) y ejecuta las celdas en orden
 (**Run → Run All Cells**, o `Shift + Enter` celda a celda).
 
 Si prefieres **VS Code**: instala las extensiones *Python* y *Jupyter*, abre la carpeta del repositorio,
